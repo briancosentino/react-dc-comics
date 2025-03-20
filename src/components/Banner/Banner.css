@@ -1,0 +1,7 @@
+.banner {
+    width: 100%;
+    background-color: rgb(105, 148, 255);
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}

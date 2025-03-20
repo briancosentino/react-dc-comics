@@ -1,0 +1,72 @@
+.footer {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    background-image: url(/public/dc-comics-1/img/footer-bg.jpg);
+    background-size: contain;
+    position: relative;
+    overflow: hidden;
+
+    .footer-logo {
+        display: block;
+        max-width: 25rem;
+        position: absolute;
+        top: -1.6rem;
+        bottom: 0;
+        right: 12rem;
+    }
+
+    .footer-col {
+        list-style: none;
+
+        li {
+            color: grey;
+            font-size: .8rem;
+            margin-bottom: .3rem;
+        }
+    }
+
+    h3,
+    li h3 {
+        color: white;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: .7rem;
+    }
+
+    li h3 {
+        margin-top: .5rem;
+    }
+}
+
+.footer-container {
+    display: flex;
+    justify-content: start;
+    gap: 1.7rem;
+    width: 80%;
+    margin: auto;
+}
+
+.footer-banner {
+    padding: 1.5rem 0;
+    background-color: rgb(61, 61, 61);
+}
+
+.signup {
+    border: 1.5px solid rgb(95, 95, 255);
+    padding: .6rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-icon {
+    color: rgb(95, 95, 255);
+    font-weight: 600;
+}

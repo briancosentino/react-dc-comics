@@ -4,11 +4,15 @@
 }
 
 .container {
-    padding: 1.3rem 0;
+
     display: flex;
     justify-content: space-between;
     width: 80%;
     margin: auto;
+}
+
+.left-nav {
+    padding: 1.3rem 0;
 }
 
 .nav-links {

@@ -1,0 +1,19 @@
+.card {
+    .card-content {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    img {
+        aspect-ratio: 1;
+        height: 9rem;
+        object-fit: cover;
+    }
+
+    p {
+        text-transform: uppercase;
+        font-size: .8rem;
+        margin-top: .4rem;
+        max-width: 8.5rem;
+    }
+}

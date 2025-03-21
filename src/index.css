@@ -10,3 +10,12 @@
 img {
   max-width: 100%;
 }
+
+.w-full {
+  width: 100%;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}

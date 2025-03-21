@@ -1,10 +1,14 @@
 import React from 'react'
 import './Main.css'
+import Jumbotron from '../Jumbotron/Jumbotron'
+
+import ComicsList from '../ComicsList/ComicsList'
 const Main = () => {
     return (
         <div className='main'>
+            <Jumbotron />
             <div className="container">
-                <h2>Content goes here</h2>
+                <ComicsList />
             </div>
 
         </div>

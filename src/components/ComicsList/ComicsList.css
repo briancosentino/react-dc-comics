@@ -1,0 +1,14 @@
+.comics {
+    padding-bottom: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.discover-badge {
+    padding: .6rem 2.5rem;
+    font-size: .8rem;
+    font-weight: 600;
+    background-color: rgb(105, 148, 255);
+}

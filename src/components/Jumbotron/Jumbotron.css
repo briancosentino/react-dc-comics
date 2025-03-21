@@ -1,0 +1,16 @@
+.jumbotron {
+    width: 100%;
+    background-image: url('/public/dc-comics-1/img/jumbotron.jpg');
+    background-size: cover;
+
+    min-height: 30rem;
+
+}
+
+.badge {
+    padding: .4rem .8rem;
+    background-color: rgb(105, 148, 255);
+    font-size: 1.1rem;
+    font-weight: bold;
+    transform: translateY(-50%);
+}

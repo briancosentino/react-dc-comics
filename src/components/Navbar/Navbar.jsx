@@ -1,12 +1,11 @@
 import React from 'react'
 import './Navbar.css'
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar = ({ links }) => {
     const [menu, setMenu] = useState('Comics')
-    const links = ['Characters', 'Comics', 'Movies', 'Tv', 'Games', 'Collectibles', 'Videos', 'Fans', 'News', 'Shop']
-
+    /*     const links = ['Characters', 'Comics', 'Movies', 'Tv', 'Games', 'Collectibles', 'Videos', 'Fans', 'News', 'Shop']
+     */
     return (
         <div className='navbar'>
             <div className="container">
@@ -16,9 +15,9 @@ const Navbar = () => {
                 </div>
                 <div className="right-nav">
                     <ul className='nav-links'>
-                        {links.map(link => (
+                        {links.map((link, index) => (
 
-                            <li onClick={() => setMenu(link)} className={`${menu === link ? 'active' : ''}`} >{link}</li>
+                            <li key={index} onClick={() => setMenu(link)} className={`${menu === link ? 'active' : ''}`} >{link}</li>
 
                         ))}
 
